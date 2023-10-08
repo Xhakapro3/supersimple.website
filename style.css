@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: url(background.JFIF);
+    background-position: center;
+    background-size: cover;
+    height: 125vh;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 18px;
+    font-family: Arial;
+    float: left;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-right: 40px;
+
+}
+
+.menu{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-right: 200px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 200px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 100px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 23px;
+    color: white;
+    border-right: none;
+    font-size: 16px; 
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 70px;
+    height: 22px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 23px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 3s ease;
+}
+.btn:hover{
+    color: black;
+    background: white;
+}
+::placeholder{
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    
+}
+h1.first{
+    font-size: 50px;
+    font-family: 'Times New Roman'; 
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+.par{
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding left: 20px;
+    padding bottom: 20px;
+    
+}
+span{
+    color: orange;
+    font-size: 62px;
+}
+.cn{
+    width: 110px;
+    height: 40px;
+    background:orange;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+
+}
+.cn a{
+    text-decoration: none;
+    color: black;
+    
+}
+.form{
+    width: 250px;
+    height: 380px;
+    top: -40px;
+    left: 870px;
+    padding: 25px;
+    
+}
+h2{
+    width: 120px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 22px;
+    background-color: orange;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    align-items: center;
+}
+.email{
+    color: white;
+}
+.password{
+    color: white;
+}
+input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid white;
+}
+.rem{
+    width: 110px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s ease;
+
+}
+.rem:hover{
+    background: white;
+    color: orange;
+}
+.rem a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.remo{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    align-items: center;
+}
+.gf{
+    text-decoration: none;
+    color: orange;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+/* home */
+.home{
+    font-size: 18px;
+    font-family: Arial;
+
+}
+.second{
+    color: orange;
+}
+
+/* about */
+.about{
+    font-size: 18px;
+    font-family: Arial;
+}
+.third{
+    color: orange;
+}
+
+
+/* courses */
+.courses{
+    font-family: Arial;
+    font-size: 18px;
+
+}
+
+.thi{
+    color: orange;
+}
+
+.net{
+    color: orange;
+}
+.gra{
+    color: orange;
+}
+.web{
+    color: orange;
+}
+.maint{
+    color: orange;
+}
+
+.services{
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.th{
+    color: orange;
+}
+.cus{
+    color: orange;
+}
+
+.des{
+    color: orange;
+}
+.soft{
+    color: orange;
+}
+
+.mob{
+    color: orange;
+    margin-right: 60px;
+}
+.contact{
+    font-size: 18px;
+    font-family: Arial;
+}
+.thir{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
